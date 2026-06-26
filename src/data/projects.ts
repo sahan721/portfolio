@@ -4,7 +4,7 @@ export const projects = [
     title: "MediSync",
     description:
       "Hospital staff attendance management system with QR attendance and role-based access control.",
-    image: "/images/projects/medisync.png",
+    image: "/images/medisync.png",
     technologies: [
       "Laravel",
       "MySQL",
@@ -12,7 +12,7 @@ export const projects = [
       "Livewire",
     ],
     category: "Web",
-    github: "https://github.com/yourusername/medisync",
+    github: "https://github.com/sahan721/medisync",
     demo: "",
   },
 
@@ -21,14 +21,14 @@ export const projects = [
     title: "BubbleBlizz",
     description:
       "Mobile beverage ordering application with online ordering and user authentication.",
-    image: "/images/projects/bubbleblizz.png",
+    image: "/images/bubbleblizz.png",
     technologies: [
       "Flutter",
       "Laravel API",
       "MySQL",
     ],
     category: "Mobile",
-    github: "https://github.com/yourusername/bubbleblizz",
+    github: "https://github.com/sahan721/BubbleBlizzApp-flutter-",
     demo: "",
   },
 
