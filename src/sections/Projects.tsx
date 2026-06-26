@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { projects } from "@/data/projects";
@@ -25,13 +27,17 @@ export default function Projects() {
               whileHover={{ y: -10 }}
               className="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-blue-500 transition-colors"
             >
-              {/* Placeholder Image */}
-              <div className="h-52 bg-gradient-to-br from-blue-600/20 to-violet-600/20 flex items-center justify-center">
-                <span className="text-2xl font-bold text-slate-300">
-                  {project.title}
-                </span>
+              {/* Project Image */}
+              <div className="relative h-52 w-full">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
               </div>
 
+              {/* Content */}
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-3">
                   {project.title}
