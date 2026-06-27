@@ -21,7 +21,7 @@ export const projects = [
     title: "BubbleBlizz",
     description:
       "Mobile beverage ordering application with online ordering and user authentication.",
-    image: "/images/bubbleblizz.png",
+    image: "/images/bubbleblizz1.png",
     technologies: [
       "Flutter",
       "Laravel API",
